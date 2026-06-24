@@ -33,7 +33,7 @@
   // ---- Scroll reveal ----
   function addReveal() {
     document.querySelectorAll(
-      '.card, .step-c, .stat-box, .sec-head, .svc-card, .quote-card, .prod-card, .faq-item, .partner-card, .c-item, .mission-wrap'
+      '.card, .step-c, .stat-box, .sec-head, .svc-card, .value-card, .quote-card, .prod-card, .faq-item, .partner-card, .c-item, .mission-wrap'
     ).forEach(function (el) { el.classList.add('reveal'); });
   }
   addReveal();
